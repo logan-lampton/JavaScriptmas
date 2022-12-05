@@ -1,4 +1,4 @@
-export default [
+const userData = [
     {
        "name":{
           "title":"Mr",
@@ -110,3 +110,5 @@ export default [
        }
     }
  ]
+
+ export default userData;
