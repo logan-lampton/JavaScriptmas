@@ -14,16 +14,16 @@ Example output: "I'M 😱 ALMOST 😱 OUT 😱 OF 😱 COFFEE!"
 .split() .join()
 */
 
-// const inputPanic = document.getElementById("input-panic");
-// const btnPanic = document.getElementById("btn-panic");
-// const textPanic = document.getElementById("text-panic");
+const inputPanic = document.getElementById("input-panic");
+const btnPanic = document.getElementById("btn-panic");
+const textPanic = document.getElementById("text-panic");
 
-// btnPanic.addEventListener("click", () => {
-//     const input = inputPanic.value;
-//     const output = panic(input);
-//     textPanic.innerText = output;
-//     inputPanic.value = "";
-// });
+btnPanic.addEventListener("click", () => {
+    const input = inputPanic.value;
+    const output = panic(input);
+    textPanic.innerText = output;
+    inputPanic.value = "";
+});
 
 const panic = (str) => {
     if(str.includes(" ")){ 
