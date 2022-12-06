@@ -21,7 +21,7 @@ main {
     
 }
 
-h1 {p
+h1 {
     background-color: #171616;
     padding: 1.2rem 1.8rem;
     margin: 1em;
@@ -46,5 +46,5 @@ p {
 }
 
 @keyframes type { 
-  from { width: 0; } 
+  from { width: 0; };
 } 
