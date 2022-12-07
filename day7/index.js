@@ -7,6 +7,7 @@ Example output: "I'M So hApPy iT'S MoNdAy"
 */
 
 function altCaps(str){
+    const newStr = str.split("").map((letter, i) => i % 2 == 0 ? letter.toLowerCase() : letter.toUpperCase()).join("");
     return newStr;
 }
 
