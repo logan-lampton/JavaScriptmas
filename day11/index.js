@@ -44,8 +44,9 @@ reverse the strings manually.
 */ 
 
 function reverseStringsInArray(arr){
-    return reverseString(arr);
+    return arr.map((str) => reverseString(str));
 }
+// function above maps the arr and for each string, runs our reverseString function on that string;
 
 console.log(reverseString(title));
 console.log(reverseStringsInArray(messages));
