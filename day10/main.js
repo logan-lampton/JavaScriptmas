@@ -1,8 +1,7 @@
 function sortByLength(strs) {
-    //  write code here.
+    const sortedArray = strs.sort((a, b) => a.length - b.length);
+    return sortedArray;
 }
-
-
 
 /**
 * Test Suite 
